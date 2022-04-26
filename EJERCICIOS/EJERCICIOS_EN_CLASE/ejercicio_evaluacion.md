@@ -53,3 +53,97 @@
 
 
 ## AGREGA EL CSS NECESARIO A LA PÁGINA.
+
+
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Titulo de página</title>
+                <link rel="stylesheet" href="estilos.css">
+            </head>
+            <body>
+                <header>
+                    <h1>ENCABEZADO NIVEL 1</h1><br>
+                    <nav>
+                        <a href="url">ENLACE 1        </a>
+                        <a href="url">ENLACE 2        </a>
+                        <a href="url">ENLACE 3        </a>
+                        <a href="url">ENLACE 4        </a>
+                    </nav>
+                </header>
+                <main>
+                    <section>
+                        <h2><b>Encabezado nivel 2</b></h2> <br>
+                        <p>Aquí va texto del primer <b>párrafo</b></p><br>
+                        <p >Aquí va texto del segundo párrafo</p>
+                    </section>
+                    <aside>
+                        <h2> <b>Apartado</b></h2>
+                        <form>
+                            <form>
+                                Elije una opcion<br>
+
+                                <input type="radio" id="gender" name="gender" value="opcion1"/>Opción 1 <br>
+                                <input type="radio" id="gender" name="gender" value="opcion2"/>Opción 2 <br>
+                                <input type="radio" id="gender" name="gender" value="opcion3"/>Opción 3 <br/>
+                                <br><input type="submit" value="Enviar">
+                            </form>
+
+                        </aside>
+                </main>
+                <footer>
+                    <p>Sección de informacion de contacto,derechos de autor, etc.</p>
+                </footer>
+            </body>
+
+            </html>
+
+
+
+
+
+
+            body{
+                background-color: rgb(94, 143, 94);
+            }
+            header 
+
+
+                    h1{
+                    color: rgb(185, 238, 185);
+                    }
+                 header {
+                     background-color: rgb(10, 32, 10);
+                 }
+                nav {
+                    background-color: rgb(188, 228, 188);
+                }
+                header{
+                    text-align: center;
+                }
+
+            main section{
+
+                background-color: rgba(71, 163, 216, 0.466);
+
+            }    
+            main aside {
+                background-color: rgb(128, 12, 128);
+            }
+            section p,h2 {
+                text-align: center;
+
+            }
+            aside {
+                text-align: center;
+            }
+            aside form {
+                text-align: center;
+            }
+            footer {
+                background-color: rgb(199, 199, 25);
+                text-align: center;
+            }
