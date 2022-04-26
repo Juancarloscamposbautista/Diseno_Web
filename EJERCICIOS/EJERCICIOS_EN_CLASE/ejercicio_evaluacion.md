@@ -75,11 +75,11 @@
                     </nav>
                 </header>
                 <main>
-                    <section>
+                    <article>
                         <h2><b>Encabezado nivel 2</b></h2> <br>
                         <p>Aquí va texto del primer <b>párrafo</b></p><br>
                         <p >Aquí va texto del segundo párrafo</p>
-                    </section>
+                    </article>
                     <aside>
                         <h2> <b>Apartado</b></h2>
                         <form>
@@ -125,7 +125,7 @@
                     text-align: center;
                 }
 
-            main section{
+            main article{
 
                 background-color: rgba(71, 163, 216, 0.466);
 
@@ -133,7 +133,7 @@
             main aside {
                 background-color: rgb(128, 12, 128);
             }
-            section p,h2 {
+            article p,h2 {
                 text-align: center;
 
             }
