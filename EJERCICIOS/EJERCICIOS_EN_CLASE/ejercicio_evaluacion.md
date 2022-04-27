@@ -106,44 +106,73 @@
 
 
 
-            body{
-                background-color: rgb(94, 143, 94);
-            }
-            header 
+                            body{
+                    background-color: rgb(94, 143, 94);
+                }
+                header 
 
 
-                    h1{
-                    color: rgb(185, 238, 185);
+                        h1{
+                        color: rgb(185, 238, 185);
+                        }
+
+                    nav {
+                        background-color: rgb(188, 228, 188);
+                        padding: 20px;
                     }
-                 header {
-                     background-color: rgb(10, 32, 10);
-                 }
-                nav {
-                    background-color: rgb(188, 228, 188);
+                    header{
+                        text-align: center;
+                        padding-top: 30px;
+                        background-color: rgb(10, 32, 10);
+                    }
+                    #en1{
+                        margin: 10px 50px 10px 10px;
+                        color: rgb(3, 3, 77);
+                    }
+                    #en2{
+                        margin: 10px 50px 10px 10px;
+                        color: rgb(23, 23, 199);
+                    }
+                    #en3{
+                        margin: 10px 50px 10px 10px;
+                        color: rgb(209, 12, 12);
+                    }
+                    #en4{
+                        margin: 10px 50px 10px 10px;
+                        color: rgb(107, 52, 52);
+                    }
+                main section{
+
+                    background-color: rgba(60, 198, 240, 0.548) ;
+                    margin: 20px 150px 0px 20px;
+                    padding: 30px 0 30px 0;
+                    color: rgb(8, 8, 121)
+
+                }    
+                main aside {
+                    background-color: rgb(128, 12, 128);
+
+                    margin: 30px 350px 20px 350px;
+                    padding-bottom: 20px;
+                    color: rgb(230, 146, 45);
                 }
-                header{
+                section p,h2 {
                     text-align: center;
+                    font-size: 20px;
+
+                }
+                aside {
+                    text-align: center;
+
                 }
 
-            main article{
+                footer {
+                    background-color: rgb(199, 199, 25);
+                    text-align: center;
+                    padding: 10px 10px 10px 10px;
+                    color: rgb(218, 14, 14);
+                }
+                 .borde{
+                     border: 2px solid rgb(49, 47, 47);
+                 }
 
-                background-color: rgba(71, 163, 216, 0.466);
-
-            }    
-            main aside {
-                background-color: rgb(128, 12, 128);
-            }
-            article p,h2 {
-                text-align: center;
-
-            }
-            aside {
-                text-align: center;
-            }
-            aside form {
-                text-align: center;
-            }
-            footer {
-                background-color: rgb(199, 199, 25);
-                text-align: center;
-            }
