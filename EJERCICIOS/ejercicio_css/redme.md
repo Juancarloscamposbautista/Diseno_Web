@@ -226,7 +226,7 @@ Imagen paisaje de la Ciudad de México https://escuelasdecodigo.cdmx.gob.mx/wp-c
             INGRESA AQUI EL CSS
                            a{
                text-decoration: none;
-               color: black;
+               color: green;
 
                }
                nav{
