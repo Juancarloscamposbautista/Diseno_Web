@@ -145,6 +145,10 @@ Realiza la maquetación del siguiente ejemplo de página: (se aplica la rúbrica
 
 ![image](https://user-images.githubusercontent.com/101900664/166944372-352b9c68-60dc-4fff-8f9c-2d63b30c1c7c.png)
 
+
+![image](https://user-images.githubusercontent.com/101900664/166953698-0b982036-d922-4a85-a696-1952c93eff8f.png)
+
+
 ● Este ejercicio lo deberás realizar con las etiquetas de HTML5, haciendo uso de los elementos semánticos de HTML5.
 
 ● Deberás, en un bloc de notas, colocar todo el código html5 y guárdalo con extensión .html
@@ -164,10 +168,111 @@ Imagen paisaje de la Ciudad de México https://escuelasdecodigo.cdmx.gob.mx/wp-c
 -El texto alternativo para la primer imagen imagen debe ser “Gobierno de la Ciudad de México”
 
             INGRESA AQUI EL CÓDIGO HTML
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+              <title>Document</title>
+              <link rel="stylesheet" href="estilos.css">
+          </head>
+          <body>
+          <header>
+          <img src="logo.png" alt="icon gobierno">
+          <hr>
+          <nav>
+          <div>
 
+
+          </div>
+          <div>
+          <b><a href="">Residentes</a> 
+          <a href="">Negocios</a> 
+          <a href="">Visitantes</a> 
+          <a href="">Gobierno</a> </b>
+          </div>
+
+          </nav>
+          </header>
+          <section>
+
+          <div class="cuadro">
+          <div id="cuadro1">
+
+          <h1>
+          <span>></span> APRENDE A PROGRAMAR <br><span>EN LAS ESCUELAS <br>DE CÓDIGO </span><br>DE LA CDMX
+          </h1>
+          </div>
+
+          <div id="cuadro2">
+          </div>
+          </div>
+          </section>
+
+          <footer>
+          <h2><b>
+          ¿Quién se puede inscribir?
+          </h2></b>
+          <p> 
+          Cualquier persona que aprende a programar codigo y cuente con 4-8 horas disponibles. a la semana
+          </p>
+          <p>
+          *Menores de edad deberán entrar a las instalaciones acompanados de un adulto.
+          </p>
+          </footer>
+          </body>
+          </html>
 
 
 
             INGRESA AQUI EL CSS
-            
+                           a{
+               text-decoration: none;
+               color: black;
+
+               }
+               nav{
+
+                   display: flex;
+                   justify-content: space-between;
+
+               }
+               .cuadro{
+               width:100%;
+                display: flex;
+                   justify-content: space-between;
+               }
+
+               section{
+                   background: url("hero.jpg");
+                height: 70vh;
+               background-repeat: no-repeat;
+                   background-position: center;
+                   background-size: cover;
+               }
+               #cuadro1{
+               color: white;
+                font-size: 1cm;
+               width:40%;
+               text-align: end;
+               }
+               span{
+               font-weight: bold;
+               }
+
+
+
+               footer{
+               text-align: center;
+               justify-content: center;
+               }
+               footer h2{
+                color: rgb(95, 83, 12);
+               }
+               
+               
+               
+  ![logo](https://user-images.githubusercontent.com/101900664/166970731-686777c9-1f21-41f6-ae0a-0e307d0f5611.png)
+
+  ![hero](https://user-images.githubusercontent.com/101900664/166970779-cac9099e-fd80-496d-8afa-b40a9e6d1648.jpg)
+        
+               
 Ingresa el link a tu página del proyecto final
